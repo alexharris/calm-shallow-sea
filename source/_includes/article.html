@@ -1,0 +1,22 @@
+<header>
+  <div class="article-tags">
+      {% include post/categories.html %}
+  </div>
+  {% if index %}
+    <h1><a href="{{ root_url }}{{ post.url }}">
+      {% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}
+    </a></h1>
+  {% else %}
+    <h1>
+      {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+    </h1>
+  {% endif %}
+</header>
+<section>
+  {{ content | excerpt }}
+</section>
+<footer>
+  <div class="article-date">
+      {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+  </div>
+</footer>

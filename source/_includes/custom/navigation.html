@@ -1,0 +1,21 @@
+<div id="main-nav">
+    <nav>
+        <ul>
+        	<li>
+        		{% if site.blog_index_asides.size %}
+					{% include_array blog_index_asides %}
+				{% else %}
+					{% include_array default_asides %}
+				{% endif %}
+        	</li>
+        	<li>
+        		<ul>
+                    <li>Projects - <a href="http://www.alexharr.is" target="_blank">alexharr.is</a>
+        			<li>Github - <a href="http://www.github.com/alexharris" target="_blank">github.com/alexharris</a></li>
+                    <li>Twitter - <a href="http://www.twitter.com/alexharris6" target="_blank">@alexharris6</a></li>
+                    <li>Email - <a href="mailto:alexharris6@gmail.com" target="_blank">alexharris6 at gmail</a></li>
+        		</ul>
+        	</li>
+        </ul>
+    </nav>
+</div>

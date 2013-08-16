@@ -1,0 +1,145 @@
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+// Mobile Menu
+
+#main-nav {
+	display: none;
+}
+
+#search {
+    display: none;
+}
+
+.search-slider {
+    position: absolute;
+    top: 45px;
+    width: 80%;
+    padding: 10%;
+    right: 0px;
+    background-color: $darkBlue;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: inline-block;
+}
+
+// Mobile Main
+
+.main {
+    padding: 0;
+    article {
+    	margin: 0 auto 40px auto;
+    	width: 90%;
+    }
+}
+
+.main aside {
+    padding: 0 0 0 10px;
+}
+
+// IE Fixes
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+.comments {
+    margin-top: 24px;
+}
+
+footer.main-footer {
+    background-color: $lightBlue;
+    .interior-footer {
+        @extend .wrapper;
+        padding: 20px 0;
+    }
+}
+
+// Media Queries
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    // nav a {
+    //     float: left;
+    //     width: 27%;
+    //     margin: 0 1.7%;
+    //     padding: 25px 2%;
+    //     margin-bottom: 0;
+    // }
+
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+	#nav-toggle {
+		display: none;
+	}
+
+	#main-nav {
+		display: block;
+	}
+
+    #search {
+        display: block;
+    }
+
+    #search-toggle-icon {
+        display: none;
+    }
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 67%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+    footer.main-footer {
+        .interior-footer {
+            @extend .wrapper;
+            padding: 20px 0;
+        }
+    }
+}

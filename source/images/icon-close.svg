@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icon-close</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M21,4 L14,10 L14,11 L21,17 L21,18 L18,21 C18,21 18,21 17,21 L11,14 L10,14 L4,21 L2,21 L0,18 C0,18 0,18 0,17 L6,11 C7,11 7,10 6,10 L0,4 L0,3 L2,0 L4,0 L10,7 L11,7 L17,0 L18,0 L21,3 C21,3 21,3 21,4 Z M21,4" id="Shape" fill="#33495D"></path>
+    </g>
+</svg>

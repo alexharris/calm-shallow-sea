@@ -1,0 +1,23 @@
+// Colors
+
+$lightBlue: #E2EEF2;
+$blue: #B8D6E0;
+$darkBlue: #374D61;
+$lightGrey: #ABABAB;
+$darkGrey: #383838;
+$red: #DA3E10;
+$darkRed: #902404;
+$white: #fff;
+$turquoise: #2aa198;
+
+// Fonts
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
+
+$bodyFont: 'Source Sans Pro';
+$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
+$sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
+
+$fontSize: 1em;
+$fontSizeSmall: 0.8em;
+$fontSizeLarge: 1.6em;

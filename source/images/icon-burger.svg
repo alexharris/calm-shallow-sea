@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icon-burger</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Regular" transform="translate(-32.000000, -18.000000)">
+            <path d="M0,0 L0,1136 L640,1136 L640,0 L0,0 Z M0,0" id="Rectangle 2" fill="#E2EEF2"></path>
+            <path d="M0,0 L0,58 L640,58 L640,0 L0,0 Z M0,0" id="Rectangle 4" fill="#B8D6E0"></path>
+            <path d="M55,38.9999668 L33,38.9999668 C32,38.9999668 32,38.9999668 32,37.9999668 L32,34.9999668 C32,33.9999668 32,33.9999668 33,33.9999668 L55,33.9999668 C56,33.9999668 56,33.9999668 56,34.9999668 L56,37.9999668 C56,38.9999668 56,38.9999668 55,38.9999668 L55,38.9999668 Z M55,30.9999668 L33,30.9999668 C32,30.9999668 32,30.9999668 32,29.9999668 L32,26.9999668 C32,25.9999668 32,25.9999668 33,25.9999668 L55,25.9999668 C56,25.9999668 56,25.9999668 56,26.9999668 L56,29.9999668 C56,30.9999668 56,30.9999668 55,30.9999668 L55,30.9999668 Z M55,22.9999668 L33,22.9999668 C32,22.9999668 32,22.9999668 32,21.9999668 L32,18.9999668 C32,17.9999668 32,17.9999668 33,17.9999668 L55,17.9999668 C56,17.9999668 56,17.9999668 56,18.9999668 L56,21.9999668 C56,22.9999668 56,22.9999668 55,22.9999668 L55,22.9999668 Z M55,22.9999668" id="Shape" fill="#33495D"></path>
+        </g>
+    </g>
+</svg>

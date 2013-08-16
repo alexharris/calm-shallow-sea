@@ -1,0 +1,113 @@
+body {
+	background: $white;
+	margin: 0px;
+}
+
+.aux-container {
+	background: $blue;
+	min-height: 40px;
+}
+
+.header-container img {
+	margin: 80px auto;
+	display: block;
+}
+
+// Nav
+
+nav {
+	a {
+		color: $red;
+		text-decoration: underline;
+	}
+	ul {
+		li {
+			width: 100%;
+			display: inline-block;
+			border-top: 5px solid $darkBlue;
+			padding: 10px 0;
+			ul li {
+				padding: 4px 0;
+				border: none;
+			}
+		}
+	}
+}
+
+#nav-toggle {
+	background-image: url("../img/icon-burger.svg");
+	margin: 10px;
+	height: 21px;
+	width: 24px;
+	display: inline-block;
+}
+
+#search-toggle-icon {
+	background-image: url("../img/icon-search.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 21px;
+	width: 21px;
+	padding: 9px 10px 16px 10px;
+	display: inline-block;
+	float: right;
+	&.active-button {
+		background-image: url("../img/icon-close.svg");
+		width: 21px;
+		background-color: $lightBlue;
+	}
+}
+
+#search {
+	&.active {
+        position: absolute;
+        top: 45px;
+        left: 0;
+        padding: 40px 2% 30px 2%;
+        width: 96%;
+        background-color: $lightBlue;
+        @include box-shadow(0, 8px, 10px, rgba(0, 0, 0, 0.4));
+    }
+}
+
+.search {
+	padding: 10px 4%;
+	margin: 0 1px 20px 0;
+	width: 75%;
+	border: none;
+	color: $darkGrey;
+	background-color: $blue;
+	float: left;
+	border-radius: 2px 0 0 2px;
+}
+
+.submit {
+	padding: 10px 2%;
+	background-color: $blue;
+	border: 0;
+	width: 16%;
+	background: $blue url("../img/icon-search.svg") no-repeat center center;
+	border-radius: 0 2px 2px 0;
+	&:hover {
+		background-color: $darkBlue;
+		background: $darkBlue url("../img/icon-search-active.svg") no-repeat center center;
+	}
+}
+
+
+// Media Queries
+
+@media only screen and (min-width: 768px) {
+
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    // .header-container,
+    // .main aside {
+    //     -webkit-box-shadow: 0 5px 10px #aaa;
+    //        -moz-box-shadow: 0 5px 10px #aaa;
+    //             box-shadow: 0 5px 10px #aaa;
+    // }
+}
