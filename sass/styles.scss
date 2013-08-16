@@ -1,13 +1,16 @@
 @import "compass";
 @include global-reset;
 
+// Includes
 @import "variables";
 @import "mixins";
 
+// Plugins
 @import "code.scss";
-
 @import "sidr.scss";
+
+//General Stuff
 @import "boilerplate.scss";
-@import "theme.scss";
 @import "structure.scss";
+@import "theme.scss";
 @import "typography.scss";

@@ -9,6 +9,11 @@
 	display: none;
 }
 
+#search-toggle {
+    display: inline-block;
+    float: right;
+}
+
 #search {
     display: none;
 }
@@ -54,30 +59,20 @@ nav a {
 .comments {
     margin-top: 24px;
 }
-
-footer.main-footer {
-    background-color: $lightBlue;
-    .interior-footer {
-        @extend .wrapper;
-        padding: 20px 0;
-    }
+    
+.interior-footer {
+    @extend .wrapper;
+    padding: 20px 0;
 }
+
+#nav-toggle {
+    display: inline-block;
+}
+
 
 // Media Queries
 
 @media only screen and (min-width: 480px) {
-
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    // nav a {
-    //     float: left;
-    //     width: 27%;
-    //     margin: 0 1.7%;
-    //     padding: 25px 2%;
-    //     margin-bottom: 0;
-    // }
 
 
 /* ========================
@@ -103,11 +98,11 @@ footer.main-footer {
 		display: block;
 	}
 
-    #search {
+    .search-container {
         display: block;
     }
 
-    #search-toggle-icon {
+    #search-toggle {
         display: none;
     }
 /* ============

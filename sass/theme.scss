@@ -39,18 +39,15 @@ nav {
 	margin: 10px;
 	height: 21px;
 	width: 24px;
-	display: inline-block;
 }
 
-#search-toggle-icon {
+#search-toggle {
 	background-image: url("../img/icon-search.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 21px;
 	width: 21px;
 	padding: 9px 10px 16px 10px;
-	display: inline-block;
-	float: right;
 	&.active-button {
 		background-image: url("../img/icon-close.svg");
 		width: 21px;
@@ -58,7 +55,7 @@ nav {
 	}
 }
 
-#search {
+.search-container {
 	&.active {
         position: absolute;
         top: 45px;
@@ -70,7 +67,7 @@ nav {
     }
 }
 
-.search {
+.search-field {
 	padding: 10px 4%;
 	margin: 0 1px 20px 0;
 	width: 75%;
@@ -92,6 +89,10 @@ nav {
 		background-color: $darkBlue;
 		background: $darkBlue url("../img/icon-search-active.svg") no-repeat center center;
 	}
+}
+
+footer.main-footer {
+	background-color: $lightBlue;
 }
 
 

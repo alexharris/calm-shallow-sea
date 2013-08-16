@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 	$('#search-toggle-icon').click( function(){
 		$(this).toggleClass('active-button');
-		var searchField = $('#search');
+		var searchField = $('.search-field');
 		if(searchField.is(':visible')) {
 			searchField.hide();
 			searchField.removeClass('active');
