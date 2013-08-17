@@ -13,4 +13,4 @@ And it is responsive:
 
 And has a cool flyout menu:
 
-![Calm, Shallow Sea - Phone Menu](/calm-shallow-menu-imac.png)
+![Calm, Shallow Sea - Phone Menu](/calm-shallow-menu-iphone.png)
