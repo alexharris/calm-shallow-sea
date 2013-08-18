@@ -25,7 +25,7 @@ Install
     $ rake install['calm-shallow-sea']
     $ rake generate
 
-Please note there are a few erros, mostly from Sass, when you `rake generate`. As far as I can tell, these do not result in any actual problems with the theme, but please let me know if you find out otherwise (or know how to get these erros resolved).
+Please note there are a few errors, mostly from Sass, when you `rake generate`. As far as I can tell, these do not result in any actual problems with the theme, but please let me know if you find out otherwise (or know how to get these errors resolved).
 
 License
 -------
