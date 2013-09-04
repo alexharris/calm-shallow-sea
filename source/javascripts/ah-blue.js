@@ -6,15 +6,20 @@ $(document).ready(function() {
 	});
 
 
-	$('#search-toggle-icon').click( function(){
+	$('#search-toggle').click( function(){
+		
 		$(this).toggleClass('active-button');
-		var searchField = $('.search-field');
-		if(searchField.is(':visible')) {
-			searchField.hide();
-			searchField.removeClass('active');
-		} else {
-			searchField.show();
-			searchField.addClass('active');
-		}
+		
+		$('.search-container').toggleClass('active');
+		$('.search-container').toggle();
+
+
+		// if($('.search-container').is(':visible')) {
+		// 	$('.search-container').hide();
+		// 	$('.search-container').removeClass('active');
+		// } else {
+		// 	$('.search-container').show();
+		// 	$('.search-container').addClass('active');
+		// }
 	});
 });
