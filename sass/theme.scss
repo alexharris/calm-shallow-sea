@@ -35,21 +35,21 @@ nav {
 }
 
 #nav-toggle {
-	background-image: url("../img/icon-burger.svg");
+	background-image: url("../images/icon-burger.svg");
 	margin: 10px;
 	height: 21px;
 	width: 24px;
 }
 
 #search-toggle {
-	background-image: url("../img/icon-search.svg");
+	background-image: url("../images/icon-search.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 21px;
 	width: 21px;
 	padding: 9px 10px 16px 10px;
 	&.active-button {
-		background-image: url("../img/icon-close.svg");
+		background-image: url("../images/icon-close.svg");
 		width: 21px;
 		background-color: $lightBlue;
 	}
@@ -83,11 +83,11 @@ nav {
 	background-color: $blue;
 	border: 0;
 	width: 16%;
-	background: $blue url("../img/icon-search.svg") no-repeat center center;
+	background: $blue url("../images/icon-search.svg") no-repeat center center;
 	border-radius: 0 2px 2px 0;
 	&:hover {
 		background-color: $darkBlue;
-		background: $darkBlue url("../img/icon-search-active.svg") no-repeat center center;
+		background: $darkBlue url("../images/icon-search-active.svg") no-repeat center center;
 	}
 }
 
