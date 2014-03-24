@@ -12,11 +12,16 @@
     </h1>
   {% endif %}
 </header>
-<section>
-  {{ content | excerpt }}
-</section>
-<footer>
-  <div class="article-date">
-      {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-  </div>
-</footer>
+{% if index %}
+  <section>{{ content | excerpt }}</section>
+  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+  {% if excerpted == 'true' %}
+  <footer>
+      <div class="article-date">
+        {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}</div>
+  </footer>
+  {% endif %}
+{% else %}
+  <section>{{ content }}</section>
+{% endif %}
+
